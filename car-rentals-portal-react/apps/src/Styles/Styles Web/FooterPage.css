@@ -1,0 +1,235 @@
+.footer-main {
+    display: flex;
+    background-color:
+    /* #475054 ; */
+    #1a3947;
+    width: 100vw;
+    color: whitesmoke;
+    bottom: 0;
+    height: 35%;
+    position: relative;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 15px 0 15px 0px;
+}
+
+.head-section-footer {
+    width: 100vw;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+span.head-section-footer {
+    display: flex;
+    width: 20vw;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.down-section {
+    width: 100vw;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-left {
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+span.footer-left {
+    font-weight: 700;
+    font-size: larger;
+}
+
+.call-us {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    border-left: 2px #009FE3 solid;
+    padding-left: 2px;
+    width: 100%;
+
+    /* height: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    border-left: 3px #009FE3 solid;
+    padding-left: 2px;
+    width: 100%; */
+}
+
+small.call-us {
+    font-size: small;
+    font-weight: 200;
+    border: none;
+    margin-bottom: 10px;
+}
+
+span.call-us {
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+
+.email-us {
+
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    border-left: 2px #009FE3 solid;
+    padding-left: 2px;
+    width: 100%;
+    /* height: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    border-left: 3px #009FE3 solid;
+    padding-left: 2px;
+    width: 100%; */
+}
+
+small.email-us {
+    font-size: small;
+    font-weight: 200;
+    margin-bottom: 1px;
+
+    border: none;
+}
+
+span.email-us {
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+
+.footer-mid {
+    display: flex;
+    width: 20vw;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.footer-mid-right {
+    display: flex;
+    width: 20vw;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.company-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+a.company-section {
+    flex-direction: column;
+    font-size: small;
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    /* margin-top: 10px; */
+}
+
+span.company-section {
+    font-weight: 500;
+    font-size: large;
+    width: 110px;
+    border-bottom: 2px white solid;
+}
+
+.support-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+a.support-section {
+    flex-direction: column;
+    font-size: small;
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    /* margin-top: 10px; */
+}
+
+span.support-section {
+    font-weight: 500;
+    font-size: large;
+    width: 110px;
+    border-bottom: 2px white solid;
+}
+
+.footer-right {
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+span.footer-right {
+    font-weight: 700;
+    font-size: larger;
+    width: 100%;
+}
+
+.follow-us {
+    height: 40%;
+    display: inline-block;
+    border-left: 2px #009FE3 solid;
+    padding-left: 1px;
+    margin: 0px 0 5px 7px;
+}
+
+small.follow-us {
+    font-size: small;
+    font-weight: 200;
+    margin-left: 5px;
+    border: none;
+}
+
+a.follow-us {
+    border: none;
+    margin: 0px 5px 0px 5px;
+    height: 30px;
+    width: 12px;
+}
+
+.download-ourapp {
+    height: 40%;
+    display: inline-block;
+    border-left: 2px #009FE3 solid;
+    padding-left: 1px;
+    margin-left: 7px;
+}
+
+small.download-ourapp {
+    font-size: small;
+    font-weight: 200;
+    margin-left: 5px;
+    width: 135px;
+    border: none;
+}
+
+a.download-ourapp {
+    border: none;
+    margin: 0px 5px 0px 5px;
+    height: 10px;
+    width: 10px;
+}

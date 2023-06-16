@@ -1,0 +1,60 @@
+.ModifyContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    background-color: #e4f1f6;
+    padding-left: 5vw;
+    padding-right: 4vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.DropOffCheckBox-Age {
+    display: flex;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.Location-dates-time-modifyBtn {
+    display: flex;
+    gap:7px
+}
+
+.DropOffCheckbox {  
+    padding: 4px;
+}
+
+.DropOffLabel {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 21px;
+    color: #475054;
+
+}
+
+.AgeInModify {
+    position: relative;
+    margin: 2px;
+    
+}
+
+.ModifyBtn {
+    font-weight: 600;
+    background: #009FE3;
+    color: #FFFFFF;
+    border: 1px solid rgba(40, 40, 40, 0.3);
+    border-radius: 7px;
+    width: 7vw;
+    margin: 2.5px 0 2.5px 0;
+    /* height: 6vh; */
+    /* margin-left: 2vw;
+    margin-top: 46vh; */
+    text-align: center;
+    position: relative;
+    padding-top: 2vh;
+}
+
+.TimePickerPickUpModify {
+    display: absolute;
+}

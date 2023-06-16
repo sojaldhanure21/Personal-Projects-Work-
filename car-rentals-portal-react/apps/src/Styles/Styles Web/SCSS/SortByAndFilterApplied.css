@@ -1,0 +1,57 @@
+.SortByAndFilterAppliedContainer {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 600;
+  color: #475054;
+  font-size: 0.8rem;
+}
+
+.sortBy {
+  display: flex;
+  gap: 3%;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+
+.sortByIndividual {
+  border-bottom: 3px solid #009FE3;
+  color: #009FE3;
+}
+
+.SortyByStaticText {
+  padding: 1vw;
+}
+
+.PriceLtoH {
+  padding: 1vw;
+}
+
+.PriceHtoL {
+  padding: 1vw;
+}
+
+.NumberOfSeats {
+  padding: 1vw;
+}
+
+.FilterAppliedContainer {
+  display: flex;
+  gap: 1vw;
+}
+
+.FilterAppliedStaticText {
+  padding: 1.5vw 2vw 1.5vw 2vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.FiltersApplied {
+  margin: 1vw 0 1vw 0;
+  padding: 0.9vw 0.5vw 0.5vw 0.5vw;
+  background: #FFFFFF;
+  border: 1px solid rgba(40, 40, 40, 0.36);
+  border-radius: 24px;
+}/*# sourceMappingURL=SortByAndFilterApplied.css.map */

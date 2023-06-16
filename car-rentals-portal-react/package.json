@@ -1,0 +1,27 @@
+{
+  "name": "@monorepo/car-rentals-portal-react",
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "description": "This a monorepo containing the react app and react native app for car rental protal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/techspian/mobility-flutter/car-rentals-portal-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/techspian/mobility-flutter/car-rentals-portal-react/issues"
+  },
+  "homepage": "https://gitlab.com/techspian/mobility-flutter/car-rentals-portal-react#readme",
+  "dependencies": {
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5"
+  }
+}

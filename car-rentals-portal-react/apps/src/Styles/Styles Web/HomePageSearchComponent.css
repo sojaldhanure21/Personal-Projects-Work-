@@ -1,0 +1,290 @@
+.HomeSearchBody {
+    font-family: ''system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';', 'system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';;
+    margin: 0;
+    padding: 0;
+    /* background-image: url('https://uat.ui.ikanopii.techspian.com/assets/assets/images/home_bg.png'); */
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../assets/CarLanding.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.SearchContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    margin-left: 7vw;
+    margin-top: 2vh;
+    height: 58vh;
+    width: 60vw;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.24);
+    border-radius: 24px;
+}
+
+.DisplayText {
+    color: white;
+    display: block;
+    font-family: ''system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';', 'system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3rem;
+    line-height: 48px;
+    padding-top: 7vh;
+    margin-left: 8vw;
+}
+
+.locationInput {
+    font-family: ''system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';'
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    box-sizing: border-box;
+    position: absolute;
+    width: 52vw;
+    height: 8vh;
+    background: #FFFFFF;
+    border: 1px solid rgba(40, 40, 40, 0.3);
+    border-radius: 7px;
+    padding-left: 5vw;
+}
+
+.locationInputModify {
+    font-family: ''system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';'
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    box-sizing: border-box;
+    position: absolute;
+    width: 30vw;
+    height: 8vh;
+    background: #FFFFFF;
+    border: 1px solid rgba(40, 40, 40, 0.3);
+    border-radius: 7px;
+    padding-left: 5vw;
+    text-overflow: ellipsis;
+}
+
+.locationInputModifyHome {
+    font-family: ''system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';'
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    box-sizing: border-box;
+    position: absolute;
+    width: 52vw;
+    height: 8vh;
+    background: #FFFFFF;
+    border: 1px solid rgba(40, 40, 40, 0.3);
+    border-radius: 7px;
+    padding-left: 5vw;
+    text-overflow: ellipsis;
+}
+
+.locationInputModifyDiffLoc {
+    font-family: ''system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';'
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    box-sizing: border-box;
+    position: absolute;
+    width: 14.75vw;
+    height: 8vh;
+    background: #FFFFFF;
+    border: 1px solid rgba(40, 40, 40, 0.3);
+    border-radius: 7px;
+    padding-left: 3.5vw;
+    text-overflow: ellipsis;
+}
+
+.locationInputModifyDiffLocHome {
+    font-family: ''system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';'
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    box-sizing: border-box;
+    position: absolute;
+    width: 25.55vw;
+    height: 8vh;
+    background: #FFFFFF;
+    border: 1px solid rgba(40, 40, 40, 0.3);
+    border-radius: 7px;
+    padding-left: 5vw;
+    text-overflow: ellipsis;
+}
+
+.locationInputContainer {
+    display: flex;
+    gap: 1vw;
+    position: absolute;
+    margin-left: 2vw;
+    margin-top: 5vh;
+    width: 52vw;
+    height: 8vh;
+}
+
+.locationInputContainerModify {
+    margin-top: 2px;
+    position: relative;
+    width: 30vw;
+    height: 8vh;
+}
+
+.locationInputContainerModifyHome {
+    margin-top: 2px;
+    position: relative;
+    width: 52vw;
+    height: 8vh;
+}
+
+.locationInputContainerModifyDiffLoc {
+    display: flex;
+    gap: 1vw;
+    margin-top: 2px;
+    position: relative;
+    width: 14.75vw;
+    height: 8vh;
+}
+
+.locationInputContainerModifyDiffLocHome {
+    display: flex;
+    gap: 1vw;
+    margin-top: 2px;
+    position: relative;
+    width: 25.55vw;
+    height: 8vh;
+}
+
+.locationInput:focus {
+    border: 1px solid rgba(40, 40, 40, 0.3);
+}
+
+.datePicker {
+    position: absolute;
+    margin-top: 20.9vh;
+    margin-left: 2.1vw;
+    box-sizing: border-box;
+    width: 24vw;
+    height: 8.4vh;
+    border-radius: 7px;
+    /* padding-left: 1.5vw;
+    padding-top: 1vh; */
+}
+
+.StaticDatePickertext {
+    padding-left: .4vw;
+}
+
+.dateDisplayText {
+    color: #919698;
+    font-size: .7rem;
+    font-weight: 600;
+}
+
+.pickup-dropoff-time-container {
+    position: absolute;
+    color: #919698;
+    font-size: .7rem;
+    font-weight: 600;
+}
+
+.SelectedDate {
+    font-family: ''system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #475054;
+}
+
+.dateDisplayText span {
+    padding: 3vh;
+}
+
+.checkBoxDifferentLocation {
+    color: #475054;
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 2vw;
+}
+
+.PickUp-DropOff-Time {
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 20.8vh;
+    margin-left: 26.5vw;
+    width: 10vw;
+    height: 8vh;
+    background: #FFFFFF;
+    font-family: ''system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';';
+    font-style: normal;
+    font-weight: 500;
+    color: #475054;
+    font-size: 1rem;
+}
+
+.MapIcon  {
+    color: #009FE3;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+.selectedTime {
+    font-family: ''system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif';';
+    font-style: normal;
+    font-weight: 500;
+    color: #475054;
+    font-size: 1rem;
+}
+
+.thirdLine {
+    display: flex;
+
+}
+
+.DropOffOnly {
+    margin-left: 40.75vw;
+}
+
+.AgeDrop {
+    width: 13vw;
+    height: 6vh;
+    margin-left: 2vw;
+    margin-top: 29vh;
+    text-align: center;
+    position: absolute;
+    padding-top: 2vh;
+}
+
+.FreeCancelationText {
+    font-size: .8rem;
+    width: 30vw;
+    height: 8vh;
+    margin-left: 2vw;
+    margin-top: 41vh;
+    text-align: left;
+    position: absolute;
+
+}
+
+.SearchCarButton {
+    font-weight: 600;
+    background: #009FE3;
+    color: #FFFFFF;
+    border: 1px solid rgba(40, 40, 40, 0.3);
+    border-radius: 7px;
+    width: 13vw;
+    height: 6vh;
+    margin-left: 2vw;
+    margin-top: 46vh;
+    text-align: center;
+    position: absolute;
+    padding-top: 2vh;
+}
+
+.DatePickerElement {
+    position: absolute;
+    z-index: 999;
+}

@@ -1,0 +1,1010 @@
+.TimePickerContainer {
+  margin: 2px;
+  position: relative;
+  display: flex;
+  font-size: 1rem;
+  background: #FFFFFF;
+  border: 1px solid rgba(40, 40, 40, 0.3);
+  border-radius: 7px;
+  width: 13vw;
+}
+
+.FirstIcon {
+  padding: 5% 0 2% 5%;
+  font-size: 1.15rem;
+  text-align: center;
+  align-items: center;
+  width: 3vw;
+  color: rgb(0, 159, 227);
+}
+
+.LabelandTimeSelect {
+  width: 8vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.LastIcon {
+  font-size: 1.1rem;
+  padding: 7% 7% 7% 0;
+  text-align: center;
+  width: 3vw;
+}
+
+.label {
+  text-align: left;
+  padding-top: 5%;
+  padding-left: 10%;
+  width: 8vw;
+  height: 50%;
+  font-size: 0.8rem;
+  color: #919698;
+}
+
+.TimePickerSelect {
+  width: 8vw;
+  height: 50%;
+}
+
+select {
+  background-color: transparent;
+  border: none;
+  width: 10vw;
+  height: 100%;
+  -webkit-appearance: none;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  color: #475054;
+  font-size: 1rem;
+}
+
+.DropDown {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  background: #FFFFFF;
+  border: 1px solid rgba(40, 40, 40, 0.3);
+  border-radius: 7px;
+  width: 13vw;
+  height: 70vh;
+  overflow-y: auto;
+  z-index: 9;
+}
+
+.SelectedTime {
+  color: #475054;
+  font-weight: 600;
+  text-align: left;
+  font-size: 1rem;
+  padding-left: 1vw;
+  padding-top: 0.2%;
+}
+
+.DropDownOption {
+  text-align: center;
+  background: #FFFFFF;
+  height: 4vh;
+  padding: 12px;
+  font-size: 1rem;
+  z-index: 9;
+}
+
+.AgePickerValue {
+  padding: 0.8em 0 0.8em 0;
+  height: 100%;
+}
+
+.DatePickerContainer {
+  margin: 2px;
+  position: relative;
+  display: flex;
+  font-size: 1rem;
+  background: #FFFFFF;
+  border: 1px solid rgba(40, 40, 40, 0.3);
+  border-radius: 7px;
+  width: 23vw;
+}
+.DatePickerContainer .datePicker-contents {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 10px 0 10px 0;
+  justify-content: space-around;
+  align-items: center;
+}
+.DatePickerContainer .datePicker-contents .pickup-dates {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: space-around;
+  align-items: center;
+}
+.DatePickerContainer .datePicker-contents .pickup-dates .FirstIcons {
+  display: flex;
+  width: 20%;
+  font-size: 1.2rem;
+  color: rgb(0, 159, 227);
+}
+.DatePickerContainer .datePicker-contents .pickup-dates .labelDates {
+  display: flex;
+  width: 70%;
+  font-size: 1.2rem;
+  color: #919698;
+}
+.DatePickerContainer .datePicker-contents .drop-off-dates {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  align-items: center;
+  justify-content: space-around;
+}
+.DatePickerContainer .datePicker-contents .drop-off-dates .FirstIcons {
+  display: flex;
+  width: 20%;
+  font-size: 1.2rem;
+  color: rgb(0, 159, 227);
+}
+.DatePickerContainer .datePicker-contents .drop-off-dates .labelDates {
+  display: flex;
+  width: 70%;
+  font-size: 1.2rem;
+  color: #919698;
+}
+.DatePickerContainer .datePicker-contents .drop-off-dates .labelDates .DropOff_label {
+  margin: 0;
+}
+.DatePickerContainer .datePickerSelectMob {
+  width: 70%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  word-spacing: 5%;
+}
+.DatePickerContainer .datePickerSelectMob .SelectedTimePick {
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 2% 0 2% 0;
+  display: flex;
+  align-items: center;
+}
+.DatePickerContainer .datePickerSelectMob .SelectedTimeDrop {
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 2% 0 2% 0;
+  display: flex;
+  align-items: center;
+}
+
+.LabelandDateSelect {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.labelDate {
+  text-align: left;
+  padding-top: 2%;
+  padding-left: 9%;
+  width: 25vw;
+  height: 50%;
+  font-size: 0.8rem;
+  color: #919698;
+}
+
+.DatePickerSelect {
+  width: 25vw;
+  height: 50%;
+}
+
+.DropOff_label {
+  margin-left: 2.7vw;
+}
+
+.autoSuggestDropDownContainer {
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 8vh;
+}
+
+.autoSuggestIndividual {
+  padding: 5px;
+  background: #FFFFFF;
+  border: 1px solid rgba(40, 40, 40, 0.3);
+  border-radius: 5px;
+}
+
+.autoSuggestName {
+  font-size: 1rem;
+  color: #919698;
+}
+
+.autoSuggestFullName {
+  font-size: 0.7rem;
+  color: #919698;
+}
+
+@media only screen and (max-width: 1199px) {
+  .autoSuggestDropDownContainer {
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+  }
+  .DatePickerContainer {
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    border: 1px solid rgba(40, 40, 40, 0.3);
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    letter-spacing: 0.5px;
+  }
+}
+@media only screen and (max-width: 1199px) and (min-height: 900px) and (min-width: 1030px) {
+  .DatePickerContainer {
+    letter-spacing: 0.2px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .DatePickerContainer .FirstIcon {
+    display: flex;
+    padding: 0;
+    font-size: 1.3rem;
+    text-align: unset;
+    align-items: center;
+    height: 100%;
+    width: 2vw;
+    color: rgb(0, 159, 227);
+  }
+}
+@media only screen and (max-width: 1199px) and (min-height: 900px) and (min-width: 1030px) {
+  .DatePickerContainer .FirstIcon {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 1199px) and (max-width: 1029px) {
+  .DatePickerContainer .FirstIcon {
+    font-size: 1 rem;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .DatePickerContainer .LabelandDateSelect {
+    height: 100%;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .DatePickerContainer .LabelandDateSelect .labelDate {
+    text-align: unset;
+    padding: 0;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    font-size: 0.8rem;
+    color: #919698;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 1199px) and (min-height: 900px) and (min-width: 1030px) {
+  .DatePickerContainer .LabelandDateSelect .labelDate {
+    font-size: 0.84rem;
+  }
+}
+@media only screen and (max-width: 1199px) and (max-width: 1029px) {
+  .DatePickerContainer .LabelandDateSelect .labelDate {
+    font-size: 0.64rem;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .DatePickerContainer .LabelandDateSelect .DropOff_label {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .DatePickerContainer .LabelandDateSelect .DatePickerSelect {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .DatePickerContainer .LabelandDateSelect .DatePickerSelect .SelectedTime {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #475054;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1199px) and (min-height: 900px) and (min-width: 1030px) {
+  .DatePickerContainer .LabelandDateSelect .DatePickerSelect .SelectedTime {
+    font-size: 0.84rem;
+  }
+}
+@media only screen and (max-width: 1199px) and (max-width: 1029px) {
+  .DatePickerContainer .LabelandDateSelect .DatePickerSelect .SelectedTime {
+    font-size: 0.64rem;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .TimePickerContainer {
+    margin: 0px;
+    position: relative;
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid rgba(40, 40, 40, 0.3);
+    border-radius: 7px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+  }
+  .TimePickerContainer .FirstIcon {
+    padding: 0;
+    display: flex;
+    font-size: 1.3rem;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 159, 227);
+  }
+}
+@media only screen and (max-width: 1199px) and (min-height: 900px) and (min-width: 1030px) {
+  .TimePickerContainer .FirstIcon {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 1199px) and (max-width: 1029px) {
+  .TimePickerContainer .FirstIcon {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .TimePickerContainer .LabelandTimeSelect {
+    height: 7svh;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+    letter-spacing: 0.5px;
+  }
+}
+@media only screen and (max-width: 1199px) and (min-height: 900px) and (min-width: 1030px) {
+  .TimePickerContainer .LabelandTimeSelect {
+    font-size: 0.3rem;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .TimePickerContainer .LabelandTimeSelect .label {
+    text-align: unset;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #919698;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 1199px) and (min-height: 900px) and (min-width: 1030px) {
+  .TimePickerContainer .LabelandTimeSelect .label {
+    font-size: 0.84rem;
+  }
+}
+@media only screen and (max-width: 1199px) and (max-width: 1029px) {
+  .TimePickerContainer .LabelandTimeSelect .label {
+    font-size: 0.64rem;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .TimePickerContainer .LabelandTimeSelect .TimePickerSelect {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .TimePickerContainer .LabelandTimeSelect .TimePickerSelect .SelectedTime {
+    color: #475054;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 0;
+    letter-spacing: 0.5px;
+  }
+}
+@media only screen and (max-width: 1199px) and (min-height: 900px) and (min-width: 1030px) {
+  .TimePickerContainer .LabelandTimeSelect .TimePickerSelect .SelectedTime {
+    font-size: 0.84rem;
+  }
+}
+@media only screen and (max-width: 1199px) and (max-width: 1029px) {
+  .TimePickerContainer .LabelandTimeSelect .TimePickerSelect {
+    font-size: 0.64rem;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .TimePickerContainer .LastIcon {
+    font-size: 0.8rem;
+    padding: 0;
+    text-align: center;
+    width: 15%;
+  }
+}
+@media only screen and (max-width: 1199px) and (min-height: 900px) and (min-width: 1030px) {
+  .TimePickerContainer .LastIcon {
+    font-size: 0.84rem;
+  }
+}
+@media only screen and (max-width: 1199px) and (max-width: 1029px) {
+  .TimePickerContainer .LastIcon {
+    font-size: 0.74rem;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .DropDown {
+    position: absolute;
+    display: flex;
+    margin: 65px 0 0 0;
+    flex-direction: column;
+    font-size: 1rem;
+    background: #FFFFFF;
+    border: 1px solid rgba(40, 40, 40, 0.3);
+    border-radius: 7px;
+    width: 100%;
+    height: 70vh;
+    overflow-y: auto;
+    z-index: 9;
+  }
+  .DropDown .DropDownOption {
+    width: 100%;
+    text-align: center;
+    background: #FFFFFF;
+    height: 4vh;
+    padding: 12px;
+    font-size: 1rem;
+    z-index: 9;
+  }
+}
+.datePickerSelectMob {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  word-spacing: 5%;
+}
+.datePickerSelectMob .SelectedTimePick {
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+}
+.datePickerSelectMob .SelectedTimeDrop {
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .autoSuggestDropDownContainer {
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+  }
+  .DatePickerContainer {
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    border: 1px solid rgba(40, 40, 40, 0.3);
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    overflow: auto;
+  }
+  .DatePickerContainer .datePicker-contents {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+  }
+  .DatePickerContainer .datePicker-contents .pickup-dates {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+  }
+  .DatePickerContainer .datePicker-contents .pickup-dates .FirstIcons {
+    display: flex;
+    width: 10vw;
+    color: rgb(0, 159, 227);
+    align-items: center;
+    font-size: 2.1rem;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 699px) and (min-width: 590px) {
+  .DatePickerContainer .datePicker-contents .pickup-dates .FirstIcons {
+    font-size: 1.9rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 589px) and (min-width: 490px) {
+  .DatePickerContainer .datePicker-contents .pickup-dates .FirstIcons {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 489px) and (min-width: 430px) {
+  .DatePickerContainer .datePicker-contents .pickup-dates .FirstIcons {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 299px) {
+  .DatePickerContainer .datePicker-contents .pickup-dates .FirstIcons {
+    font-size: 0.75rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 429px) and (min-width: 300px) {
+  .DatePickerContainer .datePicker-contents .pickup-dates .FirstIcons {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .DatePickerContainer .datePicker-contents .pickup-dates .labelDates {
+    display: flex;
+    width: 70%;
+    color: #919698;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 699px) and (min-width: 590px) {
+  .DatePickerContainer .datePicker-contents .pickup-dates .labelDates {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 589px) and (min-width: 490px) {
+  .DatePickerContainer .datePicker-contents .pickup-dates .labelDates {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 489px) and (min-width: 430px) {
+  .DatePickerContainer .datePicker-contents .pickup-dates .labelDates {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 429px) and (min-width: 300px) {
+  .DatePickerContainer .datePicker-contents .pickup-dates .labelDates {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 299px) {
+  .DatePickerContainer .datePicker-contents .pickup-dates .labelDates {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .DatePickerContainer .datePicker-contents .drop-off-dates {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    height: 100%;
+  }
+  .DatePickerContainer .datePicker-contents .drop-off-dates .FirstIcons {
+    display: flex;
+    width: 10vw;
+    color: rgb(0, 159, 227);
+    font-size: 2.1rem;
+    height: 100%;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 699px) and (min-width: 590px) {
+  .DatePickerContainer .datePicker-contents .drop-off-dates .FirstIcons {
+    font-size: 1.9rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 589px) and (min-width: 490px) {
+  .DatePickerContainer .datePicker-contents .drop-off-dates .FirstIcons {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 489px) and (min-width: 430px) {
+  .DatePickerContainer .datePicker-contents .drop-off-dates .FirstIcons {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 299px) {
+  .DatePickerContainer .datePicker-contents .drop-off-dates .FirstIcons {
+    font-size: 0.75rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 429px) and (min-width: 300px) {
+  .DatePickerContainer .datePicker-contents .drop-off-dates .FirstIcons {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .DatePickerContainer .datePicker-contents .drop-off-dates .labelDates {
+    display: flex;
+    width: 70%;
+    color: #919698;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 699px) and (min-width: 590px) {
+  .DatePickerContainer .datePicker-contents .drop-off-dates .labelDates {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 589px) and (min-width: 490px) {
+  .DatePickerContainer .datePicker-contents .drop-off-dates .labelDates {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 489px) and (min-width: 430px) {
+  .DatePickerContainer .datePicker-contents .drop-off-dates .labelDates {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 429px) and (min-width: 300px) {
+  .DatePickerContainer .datePicker-contents .drop-off-dates .labelDates {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 299px) {
+  .DatePickerContainer .datePicker-contents .drop-off-dates .labelDates {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .DatePickerContainer .datePicker-contents .drop-off-dates .labelDates .DropOff_label {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .DatePickerContainer .datePickerSelectMob {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    letter-spacing: 3px;
+  }
+  .DatePickerContainer .datePickerSelectMob .SelectedTimePick {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 699px) and (min-width: 590px) {
+  .DatePickerContainer .datePickerSelectMob .SelectedTimePick {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 589px) and (min-width: 490px) {
+  .DatePickerContainer .datePickerSelectMob .SelectedTimePick {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 489px) and (min-width: 430px) {
+  .DatePickerContainer .datePickerSelectMob .SelectedTimePick {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 429px) and (min-width: 300px) {
+  .DatePickerContainer .datePickerSelectMob .SelectedTimePick {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 299px) {
+  .DatePickerContainer .datePickerSelectMob .SelectedTimePick {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .DatePickerContainer .datePickerSelectMob .SelectedTimeDrop {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 699px) and (min-width: 590px) {
+  .DatePickerContainer .datePickerSelectMob .SelectedTimeDrop {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 589px) and (min-width: 490px) {
+  .DatePickerContainer .datePickerSelectMob .SelectedTimeDrop {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 489px) and (min-width: 430px) {
+  .DatePickerContainer .datePickerSelectMob .SelectedTimeDrop {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 429px) and (min-width: 300px) {
+  .DatePickerContainer .datePickerSelectMob .SelectedTimeDrop {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 299px) {
+  .DatePickerContainer .datePickerSelectMob .SelectedTimeDrop {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .TimePickerContainer {
+    margin: 0;
+    position: relative;
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid rgba(40, 40, 40, 0.3);
+    border-radius: 7px;
+    width: 42vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 499px) and (min-width: 490px) {
+  .TimePickerContainer {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .TimePickerContainer .FirstIcon {
+    align-items: center;
+    display: flex;
+    font-size: 2.1rem;
+    width: 16vw;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 699px) and (min-width: 590px) {
+  .TimePickerContainer .FirstIcon {
+    font-size: 1.9rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 589px) and (min-width: 490px) {
+  .TimePickerContainer .FirstIcon {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 489px) and (min-width: 430px) {
+  .TimePickerContainer .FirstIcon {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 429px) and (min-width: 300px) {
+  .TimePickerContainer .FirstIcon {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 299px) {
+  .TimePickerContainer .FirstIcon {
+    font-size: 0.75rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .TimePickerContainer .LabelandTimeSelect {
+    height: 100%;
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 1px;
+  }
+  .TimePickerContainer .LabelandTimeSelect .label {
+    text-align: unset;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #919698;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 699px) and (min-width: 590px) {
+  .TimePickerContainer .LabelandTimeSelect .label {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 589px) and (min-width: 490px) {
+  .TimePickerContainer .LabelandTimeSelect .label {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 489px) and (min-width: 430px) {
+  .TimePickerContainer .LabelandTimeSelect .label {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 429px) and (min-width: 300px) {
+  .TimePickerContainer .LabelandTimeSelect .label {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 299px) {
+  .TimePickerContainer .LabelandTimeSelect .label {
+    font-size: 0.41rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .TimePickerContainer .LabelandTimeSelect .TimePickerSelect {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .TimePickerContainer .LabelandTimeSelect .TimePickerSelect .SelectedTime {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 699px) and (min-width: 590px) {
+  .TimePickerContainer .LabelandTimeSelect .TimePickerSelect .SelectedTime {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 589px) and (min-width: 490px) {
+  .TimePickerContainer .LabelandTimeSelect .TimePickerSelect .SelectedTime {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 489px) and (min-width: 430px) {
+  .TimePickerContainer .LabelandTimeSelect .TimePickerSelect .SelectedTime {
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 429px) and (min-width: 300px) {
+  .TimePickerContainer .LabelandTimeSelect .TimePickerSelect .SelectedTime {
+    font-size: 0.5rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 299px) {
+  .TimePickerContainer .LabelandTimeSelect .TimePickerSelect .SelectedTime {
+    font-size: 0.41rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .TimePickerContainer .LastIcon {
+    text-align: center;
+    width: 10vw;
+    padding: 0;
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 699px) and (min-width: 590px) {
+  .TimePickerContainer .LastIcon {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 489px) and (min-width: 430px) {
+  .TimePickerContainer .LastIcon {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 489px) and (min-width: 430px) and (max-width: 380px) {
+  .TimePickerContainer .LastIcon {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 429px) and (min-width: 300px) {
+  .TimePickerContainer .LastIcon {
+    font-size: 0.7rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 299px) {
+  .TimePickerContainer .LastIcon {
+    font-size: 0.55rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .DropDown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    background: #FFFFFF;
+    border: 1px solid rgba(40, 40, 40, 0.3);
+    border-radius: 7px;
+    width: 100%;
+    height: 70vh;
+    overflow-y: auto;
+    z-index: 9;
+    margin: 85px 0 0 0;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 699px) and (min-width: 590px) {
+  .DropDown {
+    margin: 45px 0 0 0;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 499px) and (min-width: 430px) {
+  .DropDown {
+    margin: 41px 0 0 0;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 429px) and (min-width: 300px) {
+  .DropDown {
+    border-radius: 0px;
+    margin: 37px 0 0 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .DropDown .DropDownOption {
+    width: 100%;
+    text-align: center;
+    background: #FFFFFF;
+    height: 4vh;
+    padding: 12px;
+    font-size: 1rem;
+    z-index: 9;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 499px) and (min-width: 490px) {
+  .DropDown .DropDownOption {
+    font-size: 0.7rem;
+    padding: 6px 0 6px 0;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 429px) and (min-width: 300px) {
+  .DropDown .DropDownOption {
+    padding: 5px 0 5px 0;
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (max-width: 768px) and (max-width: 299px) {
+  .DropDown .DropDownOption {
+    font-size: 0.41rem;
+  }
+}/*# sourceMappingURL=CustomTimePicker.css.map */

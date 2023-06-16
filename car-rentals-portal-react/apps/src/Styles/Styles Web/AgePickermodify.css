@@ -1,0 +1,75 @@
+.TimePickerContainer {
+    margin: 2px;
+    position: relative;
+    display: flex;
+    font-size: 1rem;
+    background: #FFFFFF;
+    border: 1px solid rgba(40, 40, 40, 0.3);
+    border-radius: 7px;
+    width: 13vw;
+}
+
+.FirstIconAgePickerModify {
+    /* background-color: cyan; */
+    padding: 3% 0 3% 5%;
+    font-size: 1.15rem;
+    text-align: center;
+    align-items: center;
+    /* height: 9vh; */
+    width: 3vw;
+    color: rgb(0, 159, 227);
+}
+
+.LabelandTimeSelect {
+    /* background-color: red; */
+    /* height: 9vh; */
+    width: 8vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.AgePickerValueModify {
+    padding: 3% 0 3% 0;
+    height: 100%;
+}
+
+.SelectedTimeAgePickerModify {
+    color: #475054;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1rem;
+    padding-left: 1vw;
+    padding-top: 3%;
+}
+
+.LastIconAgePickerModify {
+    font-size: 1.1rem;
+    padding: 3% 3% 3% 0;
+    text-align: center;
+    /* background-color: green; */
+    width: 3vw;
+}
+
+.DropDown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    background: #FFFFFF;
+    border: 1px solid rgba(40, 40, 40, 0.3);
+    border-radius: 7px;
+    width: 13vw;
+    height: 70vh;
+    overflow-y: auto;
+    z-index: 9;
+}
+
+.DropDownOption {
+    text-align: center;
+    background: #FFFFFF;
+    /* border: 1px solid rgba(40, 40, 40, 0.3); */
+    height: 4vh;
+    padding: 12px;
+    font-size: 1rem;
+    z-index: 9;
+}

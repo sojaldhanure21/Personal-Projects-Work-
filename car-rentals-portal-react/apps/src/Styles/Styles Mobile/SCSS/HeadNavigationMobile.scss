@@ -1,0 +1,203 @@
+
+$currancySelectWidth : 12vw;
+
+
+body {
+    margin: 0;
+}
+
+
+
+.header-main-mob {
+    background-color: whitesmoke;
+    width: 100vw;
+
+    
+
+
+.header-top-mob {
+  align-items: center;
+  background-color: #F4F5F9;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  .contact-info {
+    width: 70%;
+    // display: flex;
+    // flex-direction: row;
+    // align-items: center;
+    // justify-content: space-evenly;
+    // width: 50vw;
+    // margin-right: 20vw;
+    img{
+      width: 50%;
+      margin: 25px;
+    }
+  }
+
+    
+
+    select {
+      background-color: transparent;
+      color: whitesmoke;
+      float: right;
+      width: 65px;
+      height: 32px;
+      padding-right: 10px;
+      padding-left: 2px;
+      margin-right: 0px;
+      border-radius: 5px;
+  }
+  
+  option{
+      background-color: white;
+      color: black;
+  }
+  
+  
+  .menu-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    color: #ffffff;
+
+    .menu-icon {
+      position: relative;
+      font-size: 33px;
+      width: 100%;
+      height: 20%;
+      cursor: pointer;
+      background-color: transparent;
+    }
+    
+    .menu {
+      position: relative;
+      font-size: larger;
+      font-weight: 500;
+      height: 80%;
+      top: 60px;
+      width: 100%;
+      background-color: #618f85;
+      overflow: hidden;
+      overflow-y: auto;
+      max-height: 0;
+      transition: max-height 0.5s ease-in-out;
+      
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+       li {
+        margin-bottom: 10px;
+        font-size: 18px;
+        cursor: pointer;
+        :hover {
+          color: #333;
+        }
+
+        .currancies {
+          font-weight: bold;
+          background-color: transparent;
+          color: white;
+          font-size: 14px;
+          border: 1px #e4dfdf solid;
+          border-radius: 7px;
+  
+          .currancy-selector {
+              cursor: pointer;
+  
+              &__control {
+                  background-color: transparent;
+                  color: white;
+              }
+  
+              &__placeholder {
+                  color: white;
+                  font-size: x-small;
+                  width: $currancySelectWidth;
+  
+              }
+  
+              &__single-value {
+                  width: $currancySelectWidth;
+                  background-color: transparent;
+                  font-size: x-small;
+                  font-weight: bolder;
+                  color: white;
+              }
+  
+              &__menu {
+                  width: 100%;
+                  font-size: x-small;
+                  background-color: transparent;
+                  overflow: hidden;
+                  transition: width 500px 0.5s ease-in-out;
+                  cursor: pointer;
+              }
+  
+              &__option {
+                  width: 100%;
+                  font-size: x-small;
+                  cursor: pointer;
+                  // height: 100%;
+                  // width: 100%;
+                  // display: flex;
+                  // flex-direction: row;
+                  // justify-content: space-around;
+  
+                  color: white;
+                  background-color: rgb(100, 154, 175);
+                  word-spacing: 0.4em;
+  
+                  overflow: hidden;
+              }
+  
+          }
+  
+      }
+      }
+
+
+    }
+    .menu.open{
+      position: relative;
+      width: 100%;
+      height: 80%;
+      max-height: 1000px;
+      transition: max-height 0.5s ease-in-out;
+      font-size: larger;
+      // z-index: 1;
+      
+    }
+  }
+  
+  
+
+}
+
+
+
+.header-bottom-mob {
+    width: 50%;
+    height: 50%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+img.header-bottom-mob {
+    width: 90px;
+    height: 45px;
+    margin-left: 8%;
+}
+}
