@@ -1,0 +1,139 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+  } */
+  
+  .mountain-icon {
+    transform: translateX(-1.5rem);
+  }
+  
+  .navBarTittle {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    transform: translate(0px, 20px);
+    font-size: 22px;
+    color: #4ebce7;
+  }
+  
+  .navBarTittle-md {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    transform: translate(0px, 20px);
+    font-size: 20px;
+    color: #4ebce7;
+  }
+  
+  .mountain-icon-md {
+    transform: translateX(-1.5rem);
+  }
+  
+  .navBarContainer {
+    top: 0;
+    border-bottom: 2px solid #ebebeb;
+    display: inline-flex;
+    width: 100%;
+    height: 12vh;
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: white;
+    margin-bottom: 30px;
+  }
+  .navBarContainer .mountain-icon {
+    margin-left: 1%;
+  }
+  
+  .globe-icon {
+    margin-top: 1.5%;
+    padding-top: 0.7%;
+    margin-left: 1%;
+  }
+  
+  .navBarContainer > h1 {
+    padding-left: 0.3%;
+    padding-top: 1.5%;
+    font-size: 1.5em;
+    color: #4ebce7;
+  }
+  
+  .searchPsuedoContainer {
+    border: 2px solid #ebebeb;
+    height: 7vh;
+    width: 25%;
+    margin-top: 1.2%;
+    margin-left: 19%;
+    border-radius: 25px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .searchPsuedoContainer:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  .accountPsuedoContainer {
+    padding-top: 0.7%;
+    border: 2px solid #ebebeb;
+    height: 7vh;
+    width: 7%;
+    margin-top: 1.4%;
+    margin-left: 1%;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 14px;
+    display: inline-flex;
+  }
+  .accountPsuedoContainer .user-icon {
+    margin-left: 20%;
+  }
+  .accountPsuedoContainer .bars-icon {
+    margin-left: 27%;
+  }
+  
+  .accountPsuedoContainer:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .hostPsuedoContainer {
+    padding-top: 0.9%;
+    height: 7vh;
+    width: 9%;
+    margin-top: 1.4%;
+    margin-left: 17%;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  
+  .hostPsuedoContainer:hover {
+    background-color: #ebebeb;
+  }
+  
+  .searchPsuedoContainer > button {
+    width: 20vw;
+    position: relative;
+    display: inline-flex;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .firstSpan {
+    transform: translate(-10px, -1px);
+    position: absolute;
+    float: left;
+    display: inline-flex;
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 0px;
+    float: right;
+    display: inline-flex;
+    transform: translate(20px, -8px);
+    padding: 7px;
+    border-radius: 18px;
+    background-color: #4ebce7;
+    color: #fff;
+  }/*# sourceMappingURL=Navbar.css.map */

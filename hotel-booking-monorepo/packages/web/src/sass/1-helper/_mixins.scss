@@ -1,0 +1,5 @@
+@mixin flexbox($display,$flexDirection,$justifyContent){
+    display: $display;
+    flex-direction: $flexDirection;
+    justify-content: $justifyContent;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "hotel-booking-monorepo",
+  "version": "1.0.0",
+  "description": "This project contains monorepo configurations for react and react native apps.",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces":{
+    "packages": [
+      "packages/web"
+    ]
+  }
+}

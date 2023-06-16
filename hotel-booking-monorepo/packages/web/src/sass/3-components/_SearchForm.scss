@@ -1,0 +1,493 @@
+.homepage-main {
+    width: 100vw;
+
+    .homepage-frames {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+
+        iframe {
+            width: 100%;
+            height: 100vh;
+            max-height: 100vh;
+        }
+    }
+
+    .homepage-navigation {
+        @include flexbox(flex, unset, center);
+        width: 100vw;
+        height: 35vh;
+        position: absolute;
+        margin: 0;
+        top: 65vh;
+        align-items: center;
+        background-color: #0000000a;
+
+        .homepage-container {
+            @include flexbox(flex, row, space-between);
+            width: 100vw;
+            height: 100%;
+            align-items: center;
+
+            .navbar-tabs {
+                @include flexbox(flex, unset, center);
+                width: 20%;
+                height: 100%;
+                align-items: center;
+
+                svg {
+                    width: 30%;
+                    font-size: 35px;
+                    cursor: pointer;
+                }
+            }
+
+            .input-container {
+                @include flexbox(flex, column, space-between);
+                width: 58%;
+                height: 100%;
+                align-items: center;
+
+
+                .search-bar {
+                    @include flexbox(flex, column, space-between);
+                    height: 60%;
+                    width: 90%;
+                    align-items: center;
+
+                    ul {
+                        @include flexbox(flex, row, center);
+                        align-items: flex-end;
+                        width: 90%;
+                        height: 35%;
+                        font-size: 0.85rem;
+                        font-weight: 700;
+                        color: $coomonWhiteColor;
+
+                        li {
+                            cursor: pointer;
+                            margin: 0 20px 0 20px;
+                        }
+
+                        ::marker {
+                            font-size: 0px;
+                        }
+                    }
+
+                    .searchbar-tab {
+                        height: 48%;
+                        width: 95%;
+
+                        .search-form-input {
+                            @include flexbox(flex, row, space-around);
+                            width: 100%;
+                            height: 90%;
+                            align-items: center;
+                            background-color: $coomonWhiteColor;
+                            border: 1px solid $transparentColor;
+                            border-radius: 35px;
+
+                            button {
+                                width: 4vw;
+                                height: 8vh;
+                                border: 1px solid $transparentColor;
+                                border-radius: 239px;
+                                background-color: $logoThemeColoredIcons;
+                                color: $coomonWhiteColor;
+
+                                svg {
+                                    font-size: 1.3rem
+                                }
+                            }
+
+                            .location-input {
+                                @include flexbox(flex, row, space-between);
+                                width: 30%;
+                                height: 80%;
+                                align-items: center;
+
+                                svg {
+                                    width: 9%;
+                                    height: 100%;
+                                }
+
+                                .location-selector {
+                                    @include flexbox(flex, column, space-around);
+                                    width: 85%;
+                                    height: 70%;
+                                    border-right: 2px solid $borderColors;
+
+
+                                    label {
+                                        font-size: 0.7rem;
+                                        font-weight: 500;
+                                        height: 45%;
+                                    }
+
+                                    input {
+                                        font-size: 0.8rem;
+                                        font-weight: 600;
+                                        color: $searchbarInputsColor;
+                                        height: 45%;
+                                        border: 1px solid #cdc1c105;
+                                        border-radius: 5px;
+                                        padding-left: 0px;
+                                        width: 95%;
+                                    }
+                                }
+
+                                .dropdown-selector {
+                                    @include flexbox(flex, column, unset);
+                                    position: absolute;
+                                    width: 20%;
+                                    height: 40vh;
+                                    overflow: hidden;
+                                    margin-bottom: 45vh;
+                                    background-color: $transparentColor;
+                                    margin-left: 7vh;
+                                    border: 1px solid $transparentColor;
+                                    border-radius: 15px;
+                                }
+
+                                .autosuggest-dropdown {
+                                    @include flexbox(flex, column, unset);
+                                    position: relative;
+                                    width: 100%;
+                                    height: 90%;
+                                    overflow: hidden;
+                                    background-color: $coomonWhiteColor;
+
+                                    .autosuugest-location {
+                                        overflow: hidden scroll;
+                                        width: 100%;
+
+                                        .autosuggest-individual {
+                                            @include flexbox(flex, row, flex-start);
+                                            margin: 10px;
+                                            width: 100%;
+                                            align-items: center;
+                                            // background-color: $logoThemeColoredIcons;
+
+                                            .location-icon {
+                                                @include flexbox(flex, column, unset);
+                                                width: 10%;
+                                                height: 100%;
+                                                background-color: $searchbarInputsColor;
+                                                border-radius: 15px;
+                                                align-items: center;
+                                                margin-right: 10px;
+
+                                                svg {
+                                                    @include flexbox(flex, unset, space-between);
+                                                    width: 35%;
+                                                    align-items: center;
+                                                    height: 4vh;
+                                                }
+                                            }
+
+                                            .cityname {
+                                                width: 80%;
+                                                font-size: 0.8rem;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .datepicker-picker {
+                                @include flexbox(flex, row, space-between);
+                                width: 33%;
+                                height: 80%;
+                                align-items: center;
+
+                                svg {
+                                    width: 8%;
+                                    height: 100%
+                                }
+
+                                .date-selector {
+                                    @include flexbox(flex, column, space-around);
+                                    width: 85%;
+                                    height: 70%;
+                                    border-right: 2px solid $borderColors;
+
+                                    label {
+                                        font-size: 0.7rem;
+                                        font-weight: 500;
+                                        height: 45%;
+                                    }
+
+                                    span {
+                                        height: 45%;
+                                        font-size: 0.8rem;
+                                        font-weight: 600;
+                                        color: $searchbarInputsColor;
+                                    }
+                                }
+                            }
+
+                            .passenger-type {
+                                @include flexbox(flex, row, space-between);
+                                width: 18%;
+                                height: 80%;
+                                align-items: center;
+
+                                svg {
+                                    width: 11%;
+                                    height: 100%;
+                                }
+
+                                .passenger-selector {
+                                    @include flexbox(flex, column, space-around);
+                                    width: 80%;
+                                    height: 70%;
+
+                                    label {
+                                        font-size: 0.7rem;
+                                        font-weight: 500;
+                                        height: 45%;
+                                    }
+
+                                    span {
+                                        height: 45%;
+                                        font-size: 0.8rem;
+                                        font-weight: 600;
+                                        color: $searchbarInputsColor;
+                                    }
+                                }
+
+                                .guest-selector {
+                                    width: 18vw;
+                                    position: absolute;
+                                    background-color: $coomonWhiteColor;
+                                    bottom: 25vh;
+                                    border: transparent;
+                                    border-radius: 15px;
+
+                                    .guest-picker {
+                                        @include flexbox(flex, column, space-around);
+                                        width: 100%;
+                                        align-items: center;
+                                        height: 100%;
+
+                                        span {
+                                            @include flexbox(flex, unset, unset);
+                                            font-size: 0.8rem;
+                                            font-weight: 500;
+                                            width: 100%;
+                                            height: 5vh;
+                                            align-items: center;
+                                            padding-left: 1vw;
+                                        }
+
+                                        .guest-type {
+                                            @include flexbox(flex, row, space-around);
+                                            width: 100%;
+                                            height: 8vh;
+
+                                            .adult-guest {
+                                                @include flexbox(flex, column, space-around);
+                                                width: 40%;
+                                                height: 100%;
+
+                                                span {
+                                                    font-size: 0.7rem;
+                                                    padding: 0;
+
+                                                }
+
+                                                .adult-selector {
+                                                    @include flexbox(flex, row, space-between);
+                                                    height: 50%;
+                                                    width: 100%;
+                                                    align-items: center;
+                                                    background-color: #dddde3;
+                                                    border-radius: 30px 30px 30px 30px;
+
+                                                    span {
+                                                        @include flexbox(flex, unset, center);
+                                                        width: 60%;
+                                                        align-items: center;
+                                                        padding: 0;
+                                                    }
+
+                                                    button {
+                                                        cursor: pointer;
+                                                        width: 25px;
+                                                        height: 25px;
+                                                        font-size: 0.7rem;
+                                                        font-weight: 500;
+                                                        border: transparent;
+                                                        border-radius: 50%;
+                                                    }
+                                                }
+
+                                            }
+
+                                            .child-guest {
+                                                @include flexbox(flex, column, space-around);
+                                                width: 40%;
+                                                height: 100%;
+
+                                                span {
+                                                    font-size: 0.7rem;
+                                                    padding: 0;
+                                                }
+
+                                                .child-selector {
+                                                    @include flexbox(flex, row, space-between);
+                                                    align-items: center;
+                                                    height: 50%;
+                                                    width: 100%;
+                                                    align-items: center;
+                                                    background-color: #dddde3;
+                                                    border-radius: 30px 30px 30px 30px;
+
+                                                    span {
+                                                        @include flexbox(flex, unset, center);
+                                                        width: 60%;
+                                                        align-items: center;
+                                                        padding: 0;
+
+                                                    }
+
+                                                    button {
+                                                        cursor: pointer;
+                                                        width: 25px;
+                                                        height: 25px;
+                                                        font-size: 0.7rem;
+                                                        font-weight: 500;
+                                                        border: transparent;
+                                                        border-radius: 50%;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        .childage-count {
+                                            @include flexbox(flex, row, space-around);
+                                            width: 100%;
+                                            height: 8vh;
+                                            align-items: center;
+
+                                            span {
+                                                width: 25%;
+                                                height: 100%;
+                                                font-size: 0.7rem;
+                                                padding: 0;
+                                            }
+
+                                            label {
+                                                font-size: 0.7rem;
+                                                color: #b3acac;
+                                                width: 20%;
+                                                letter-spacing: 1px;
+                                            }
+
+                                            .child-age {
+                                                @include flexbox(flex, row, space-around);
+                                                width: 7vw;
+                                                height: 4vh;
+                                                align-items: center;
+                                                background-color: #dddde3;
+                                                border-radius: 15px 15px 15px 15px;
+
+                                                span {
+                                                    @include flexbox(flex, unset, space-around);
+                                                    align-items: center;
+                                                    padding: 0;
+                                                    width: 60%;
+                                                    font-size: 0.7rem;
+                                                }
+
+                                                button {
+                                                    cursor: pointer;
+                                                    width: 25px;
+                                                    height: 25px;
+                                                    font-size: 0.7rem;
+                                                    font-weight: 500;
+                                                    border: transparent;
+                                                    border-radius: 50%;
+                                                }
+                                            }
+                                        }
+
+                                        .guestform-submission {
+                                            @include flexbox(flex, row, space-around);
+                                            width: 100%;
+                                            height: 8vh;
+                                            align-items: center;
+
+                                            button {
+                                                width: 55%;
+                                                height: 55%;
+                                                border: transparent;
+                                                border-radius: 20px 20px 20px 20px;
+                                                font-size: 0.5rem;
+                                                font-weight: 600;
+                                                letter-spacing: 0.5px;
+                                                cursor: pointer;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .footer-homepage {
+                    @include flexbox(flex, row, center);
+                    width: 100%;
+                    height: 25%;
+                    color: $coomonWhiteColor;
+                    align-items: center;
+                    font-size: 0.9rem;
+
+                    span {
+                        @include flexbox(flex, unset, flex-end);
+                        width: 25%;
+                    }
+
+                    ul {
+                        @include flexbox(flex, row, space-between);
+                        align-items: center;
+                        width: 22%;
+
+                        ::marker {
+                            font-size: 10px;
+                        }
+
+                        li {
+                            a {
+                                color: $coomonWhiteColor;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .support {
+                @include flexbox(flex, unset, center);
+                width: 20%;
+                align-items: center;
+
+                button {
+                    @include flexbox(flex, row, space-around);
+                    cursor: pointer;
+                    border: 1px solid $transparentColor;
+                    border-radius: 30px;
+                    width: 10vw;
+                    height: 6vh;
+                    align-items: center;
+                    background-color: $logoThemeColoredIcons;
+                    color: $coomonWhiteColor;
+
+                    svg {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

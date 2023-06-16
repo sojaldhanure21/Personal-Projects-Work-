@@ -1,0 +1,60 @@
+.menu {
+    position: absolute;
+    width: 100vw;
+    height: 20vh;
+    background-color: $transparentColor;
+
+    .menu-container {
+        width: 100%;
+        height: 90%;
+        padding-top: 10px;
+
+        .menu-row {
+            width: 100%;
+            height: 100%;
+
+            .currancy-wrapper {
+                @include flexbox(flex, row,flex-end);
+                width: 100%;
+                height: 5vh;
+                position: relative;
+                align-items: center;
+                background-color: $transparentColor;
+
+                select {
+                    background-color: coral;
+                    color: brown;
+                    margin-right: 5vw;
+
+                }
+            }
+
+            .logo-wrapper {
+                @include flexbox(flex, row, space-between);
+                height: 15vh;
+                padding-top: 10px;
+
+                img {
+                    width: 11vw;
+                    height: 7vh;
+                    padding-left: 10vw;
+                }
+
+                .login-container {
+                    width: 10vw;
+
+                    button {
+                        width: 90px;
+                        height: 40px;
+                        border: 2px solid $transparentColor;
+                        border-radius: 30px;
+                        background-color: $logoThemeColoredIcons;
+                        color: $coomonWhiteColor;
+                        font-size: 13px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
